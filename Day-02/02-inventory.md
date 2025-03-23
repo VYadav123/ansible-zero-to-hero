@@ -7,7 +7,7 @@ Ansible inventory file is a fundamental component of Ansible that defines the ho
 A static inventory file is typically a plain text file (usually named hosts or inventory) and is structured in INI or YAML format. Here are examples of both formats:
 ## if Inventory files is not present
 Just go to this location `etc/ansible/host`, ansible is folder here (create it if it not pesent), host is file(create if it is not present), by doing so you dont need to create the seperate the inventory.ini file, here if you mention the servers (manage nodes), Ansible will understand these are manage nodes
-### INI Format
+### INI Format (recommended approach)
 
 ```
 # inventory file: hosts
@@ -24,6 +24,9 @@ db2.example.com
 ansible_user=admin
 ansible_ssh_private_key_file=/path/to/key
 ```
+## for Example
+<img width="532" alt="image" src="https://github.com/user-attachments/assets/ff5563b4-c580-48eb-8236-bfc07fe8ba8c" />
+
 
 ### YAML
 
