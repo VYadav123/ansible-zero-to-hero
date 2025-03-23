@@ -7,6 +7,10 @@
 ```
 ssh-copy-id -f "-o IdentityFile <PATH TO PEM FILE>" ubuntu@<INSTANCE-PUBLIC-IP>
 ```
+- for example
+- `ssh-copy-id -f "-o IdentityFile C:\Users\ViditYadav\Downloads\VMLinux_key.pem" ubuntu@13.127.32.197`
+- Connecting VM using from laptop (another way)
+- `ssh -i C:/Users/ViditYadav/Downloads/VMLinux_key.pem ubuntu@13.203.208.233`
 
 - ssh-copy-id: This is the command used to copy your public key to a remote machine.
 - -f: This flag forces the copying of keys, which can be useful if you have keys already set up and want to overwrite them.
