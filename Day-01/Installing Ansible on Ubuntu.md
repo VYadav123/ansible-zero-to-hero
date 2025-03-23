@@ -1,4 +1,4 @@
-Installing Ansible on Ubuntu
+# Installing Ansible on Ubuntu
 This document provides a step-by-step guide to installing Ansible on an Ubuntu system.
 
 Prerequisites
