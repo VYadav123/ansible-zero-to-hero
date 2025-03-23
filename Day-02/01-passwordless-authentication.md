@@ -15,7 +15,8 @@ ssh-copy-id -f "-o IdentityFile <PATH TO PEM FILE>" ubuntu@<INSTANCE-PUBLIC-IP>
 
 ### Using Password 
 
-- Go to the file `/etc/ssh/sshd_config.d/60-cloudimg-settings.conf`
+- Password authentication file would present in ssh folder of VM or EC2 instance, just go and update to enable password authentication
+- Go to the file `sudu vim /etc/ssh/sshd_config.d/60-cloudimg-settings.conf`
 - Update `PasswordAuthentication yes`
 - Restart SSH -> `sudo systemctl restart ssh`
 
