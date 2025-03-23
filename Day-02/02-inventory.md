@@ -24,7 +24,9 @@ db2.example.com
 ansible_user=admin
 ansible_ssh_private_key_file=/path/to/key
 ```
-## for Example
+
+
+## Ansible commands for simple task
 <img width="532" alt="image" src="https://github.com/user-attachments/assets/ff5563b4-c580-48eb-8236-bfc07fe8ba8c" />
 
 
