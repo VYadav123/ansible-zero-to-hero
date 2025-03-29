@@ -107,3 +107,6 @@ my_collection/
   community.general.my_module:
     option: value
 ```
+
+### Running a playbook in ansible
+<img width="593" alt="image" src="https://github.com/user-attachments/assets/193e72f1-ec8e-48a3-b081-5a2474c267a3" />
