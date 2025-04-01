@@ -44,7 +44,9 @@ git push -u origin main
 ansible-galaxy role import <your_github_username> <role-name> --token
 ```
 ![image](https://github.com/user-attachments/assets/9a799aa3-e875-4d2b-bde2-46fd5bf280a5)
+5. Getting token from Galaxy
+![image](https://github.com/user-attachments/assets/be6469a3-d2a5-4b58-9305-9c9f331c0405)
 
-5. Whenever you create the roles, it always create the different folders below
+6. Whenever you create the roles, it always create the different folders below
 
    ![image](https://github.com/user-attachments/assets/0ad4f3e6-3185-4805-8329-357909116df9)
