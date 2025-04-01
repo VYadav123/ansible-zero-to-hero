@@ -43,3 +43,6 @@ git push -u origin main
 ```
 ansible-galaxy role import <your_github_username> <role-name>
 ```
+5. Whenever you create the roles, it always create the different folders below
+
+   ![image](https://github.com/user-attachments/assets/0ad4f3e6-3185-4805-8329-357909116df9)
