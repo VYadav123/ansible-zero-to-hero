@@ -41,8 +41,10 @@ git push -u origin main
 4. Import the Role to Ansible Galaxy
 
 ```
-ansible-galaxy role import <your_github_username> <role-name>
+ansible-galaxy role import <your_github_username> <role-name> --token
 ```
+![image](https://github.com/user-attachments/assets/9a799aa3-e875-4d2b-bde2-46fd5bf280a5)
+
 5. Whenever you create the roles, it always create the different folders below
 
    ![image](https://github.com/user-attachments/assets/0ad4f3e6-3185-4805-8329-357909116df9)
