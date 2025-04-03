@@ -10,3 +10,12 @@ abhishekveeramalla@aveerama-mac day-07 % ansible-playbook -i inventory.ini ec2_s
 
 ---
 
+### For debugging Ansible gather facts
+
+- hosts: all
+become: true
+
+tasks:
+- name: Print all the ansible gathered ansible_facts
+ansible.builtin.debug:
+var: ansible_facts
