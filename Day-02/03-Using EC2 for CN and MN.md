@@ -1,6 +1,6 @@
-Sure! Here is the beautified and updated version of your Markdown file with headings and code blocks formatted for easy copying:
 
-```markdown
+
+
 # Using EC2 for Control Node (CN) and Managed Node (MN)
 
 ## 1. Connect to the Control Node
@@ -64,4 +64,4 @@ ssh ubuntu@<managed_node_public_ip>
 ```
 ```
 
-You can now update the file in your repository with this beautified content. If you need any further assistance, feel free to ask!
+
